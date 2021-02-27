@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import CounterApp from './CounterApp';
+import PrimeraApp from './PrimeraApp';
+//import CounterApp from './CounterApp';
 
 
-ReactDOM.render(<CounterApp value={10} />, document.getElementById('root'));
 
+ReactDOM.render(<PrimeraApp saludo={'Hola soy Dario'} />, document.getElementById('root'));
+
+//<CounterApp value={10} />
